@@ -1,0 +1,1009 @@
+html {
+    scroll-behavior: smooth;
+    
+}
+
+section {
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    justify-content: center;
+    
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    
+ 
+}
+
+
+#mobile-nav-rapper {
+    display: none;
+}
+
+nav {
+    
+    position: fixed;
+    top:0;
+    color: black;
+    background-color: #0000;
+    transition: all ease-out 500ms;
+    width: 100vw;
+    height: 4em;
+    transition: all ease-out 500ms;
+    z-index: 1;
+   
+}
+
+
+
+
+.nav2 {
+    
+    position: fixed;
+    top:0;
+    color: black;
+    background-color: white;
+    box-shadow: 0px 0 1px rgba(0, 0, 0, 0.9);
+    transition: all ease-in 500ms;
+    width: 100vw;
+    height: 4em;
+   
+    
+   
+}
+
+
+
+
+nav a , nav h1 {
+    padding: 20px 1em 0px 8px;
+    float: right;
+    color: white;
+    text-decoration: none;
+    
+}
+
+nav a:hover {
+    padding: 20px 1em 0px 8px;
+    float: right;
+    color: #ff7e05;
+    text-decoration: none;
+    
+}
+
+
+
+.nav2 a, .nav2 h1 {
+
+    padding: 20px 1em 0px 8px;
+    float: right;
+    color: black;
+    text-decoration: none;
+
+}
+
+
+li{
+    list-style: none;
+   
+
+    
+}
+
+#header {
+    position: relative;
+    display: content;
+   
+    background-size: 100vw 100vh;
+    background-position: center;
+    background-attachment: fixed;
+    
+   
+   text-align: center; 
+   
+   
+}
+
+
+.imgCover{
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    background-color: #02008c;
+  
+  
+   
+
+}
+
+#headerImage-1{
+    width:100vw;
+    height:100vh;
+    background-color: #02008c;
+    opacity: 50%;
+}
+
+
+
+#header p {
+
+    position: absolute;
+    top: 4em;
+    color: white;
+    font-size: 53px;
+    margin-left: auto;
+margin-right: auto;
+left: 0;
+right: 0;
+
+}
+
+#header h1 {
+    display: inline-flex;
+    justify-content: center;
+    position: fixed;
+    top:0;
+    left: .5em;
+    z-index: 3;
+    font-size: 3em;
+    padding: 0;
+    margin: 0;
+    
+}
+
+
+#header button{
+    position: relative;
+    bottom: 8em;
+    color: #ff7e05;
+    background-color: #0000;
+    border-color: #ff7e05;
+    border-radius: 2px;
+    font-size: 15px;
+  
+    height: 4em;
+    width: 15em;
+    transition: ease-out 100ms;
+ cursor: pointer;
+}
+
+
+
+
+
+
+
+#about {
+    display: flex;
+    flex-flow: row;
+    justify-content:center;
+    flex-wrap: wrap;
+   padding-top: 7em;
+   padding-bottom: 7em;
+   opacity: 0%;
+   transition: ease-out 600ms;
+  
+ 
+  
+}
+
+
+#about.fade-in {
+  
+   opacity: 100%;
+   transition: ease-in 600ms;
+   transform: translateX(0px);
+  
+}
+
+#aboutType {
+    text-align: left;
+    padding-right: 9em;
+    width: 20em;
+    
+   
+}
+
+#about h2 {
+    font-size: 40px;
+    margin: 0;
+}
+
+#aboutType h2::after{
+    content: "";
+    display:block;
+    height: 1px;
+    margin-top: .5em;
+    width: 6em;
+    background: rgba(144, 144, 144, 0.5);
+}
+
+
+#about img {
+    width: 493px;
+    height: 282px;
+    padding: 0;
+    margin: 0;
+    border-radius: 5px;
+    transform: translateX();
+
+
+}
+
+#services {
+  color: black;
+   min-height: 100%;
+   width: 100vw;
+   position: relative;
+   background-position: center;
+   background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#devService, #contentService, #marketingService {
+color: black;
+    display: flex;
+    flex-flow: column;
+    width: 18em;
+    height: 25em;
+    align-items: center;
+    justify-content: first baseline;
+    padding: 20px;
+    margin: 2em;
+    background-size: contain;
+    background-repeat:repeat-y;
+    background-position: center;
+
+    background-color: #6967670d;
+
+    border-radius: 3px;
+    box-shadow: 0px 1px .5px rgba(0, 0, 0, 0.2);
+}
+
+#devService img, #contentService img, #marketingService img{
+   height: 4em;
+   width: 4em;
+  
+  
+    
+}   
+
+
+#services h1 {
+    color: black;
+}
+
+#testimonials{
+
+    background-color:#000024;
+    background-image:url("/images/mohammad-alizade-S5uV7ro4UPY-unsplash.jpg");
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+		background-size: 100%,							cover,							cover;
+    
+}
+
+#testimonials p, #testimonials h1 {
+    padding: 1em 3em 1em 3em;
+    font-size: 20px;
+    color: white;
+    height: auto;
+    text-align: left;
+}
+
+
+#caseStudies {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+#caseStudies img {
+    width: 20em;
+    height: 14em;
+    border-radius: 5px;
+}
+
+.case1, .case2, .case3 {
+
+    display: flex;
+    flex-flow: column;
+    width: 20em;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin: 16px;
+  
+}
+
+.case1 button, .case2 button, .case3 button {
+
+   
+    bottom: 5em;
+    color: black;
+    background-color:#0000;
+    border-radius: 4px;
+    border-color: black;
+    font-size: 10px;
+    height: 4em;
+    width: 15em;
+    transition: ease-out 100ms;
+}
+
+
+.case1 button:hover, .case2 button:hover, .case3 button:hover {
+
+   
+    bottom: 5em;
+    color: white;
+    background-color:#ff7e05;
+    border-radius: 4px;
+    border-color: #ff7e05;
+    font-size: 10px;
+    height: 4em;
+    width: 15em;
+    transition: ease-out 100ms;
+}
+
+
+form {
+    width: 100vw;
+padding: 0;
+
+    display: flex;
+    flex-direction: column;
+    color: white;
+    background-image:url("/images/oskar-yildiz-cOkpTiJMGzA-unsplash.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position-y: 80% ;
+    background-color:#00002454;
+    background-size: 100%;
+    background-blend-mode: darken;
+}
+
+form h1 {
+    font-size: 2em;
+    
+    padding: 3px;
+}
+
+input {
+    padding: 2em 4em 2em 4em;
+    margin: 1em;
+    width: 35em;
+    border-radius: 5px;
+    box-shadow: none;
+    border: none;
+    
+}
+
+textarea {
+    padding: 5em 4em 5em 4em;
+    margin: 1em;
+    width: 35em;
+    border-radius: 5px;
+    border: none;
+    
+}
+
+#formButton {
+    margin: 1em;
+    position: relative;
+    color: #ff7e05;
+    background-color: #0000;
+    border-color: #ff7e05;
+    border-radius: 2px;
+    font-size: 12px;
+    height: 4em;
+    width: 10em;
+    transition: ease-out 100ms;
+
+}
+
+
+#footer {
+   width: 100vw;
+   height: 1.5em;
+    background-color:#01013d;
+    color:white;
+    background-attachment: fixed,							fixed,							fixed;
+   
+    background-position: top left,						center center,					center center;
+    background-size: auto,							cover,							cover;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+   
+    align-items: center;
+   
+}
+
+#footer li, #footer a {
+  
+    display: inline-flex;
+   
+    color: white;
+    text-decoration: none;
+    
+}
+
+.footerNav {
+    padding: 0;
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+   
+    
+}
+
+
+.copy  {
+ position: relative;
+font-size: 12px;
+ color: black;
+}
+
+
+
+
+
+
+/*****************************Animations***************************/
+
+button:hover{
+color: white ;
+background-color: #ff7e05;
+transition: ease-in 100ms;
+border-color: white;
+transition: ease-in 100ms;
+
+}
+
+
+
+.textColor {
+    Color: #ff7e05;
+
+}
+
+
+
+
+
+#header button:hover{
+    position: relative;
+    bottom: 8em;
+    color: white;
+    background-color: #ff7e05;
+    border-color: #ff7e05;
+    border-radius: 2px;
+    font-size: 15px;
+  
+    height: 4em;
+    width: 15em;
+ 
+}
+
+#formButton:hover {
+    position: relative;
+
+    color: white;
+    background-color: #ff7e05;
+    border-color: #ff7e05;
+    border-radius: 2px;
+    font-size: 15px;
+  
+    height: 4em;
+    width: 15em;
+
+}
+
+
+
+
+/* ----------- iPhone 6+, 7+ and 8+ ----------- */
+
+/* Portrait and Landscape */
+
+
+
+
+@media  screen 
+
+  
+  and (max-width: 812px) 
+  
+  and (orientation: portrait) {
+
+    body {
+    
+    padding: 0;
+    margin: 0;
+    display: block;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    }
+
+
+a {
+    text-decoration: none;
+}
+   
+
+    img{
+        display: inline-block;
+        width: auto;
+        height: auto;
+    }
+    
+    
+    h1, h2, h3{
+        margin:0;
+        padding:  0;
+    }
+    
+    p {
+        margin:0;
+        padding: 0;
+    
+    }
+
+    #mobile-nav-rapper a:visited { text-decoration: none; color:black; }
+
+    #menuImage {
+        width: 7vw;
+        height: 4vh;
+        position: fixed;
+        right: 10px;
+        top: 16px;
+        z-index: 2;
+    }
+
+    #menuImageHide {
+        display: none;
+        width: 7vw;
+        height: 4vh;
+        position: fixed;
+        right: 10px;
+        top: 18px;
+        z-index: 2;
+    }
+
+    #mobileLogo {
+        width: 7vw;
+        height: 5vh;
+        position: fixed;
+        left: 10px;
+        top: 16px;
+        z-index: 2;
+    }
+#mobile-nav-rapper{
+    display: block;
+    
+}
+
+    #mobile-ul { 
+        text-align: center;
+    color: rgba(0, 0, 0, 0.9);
+        padding: 1px;
+        display: none;
+        background-color: white;
+        list-style: none;
+        
+        width: 100vw;
+        height: 100vh;
+
+      z-index: -1;
+       
+       
+
+    }
+
+
+    #mobile-nav li { 
+       text-align: center;
+        margin-top: 6em;
+        list-style: none;
+  
+    }
+
+    #mobile-nav li:hover { 
+        color: #ff7e05;
+   
+     }
+
+ 
+
+    
+    nav {
+        position: fixed;
+        top:0;
+        color: black;
+        background-color: white;
+        box-shadow: 0px 0 1px rgba(0, 0, 0, 0.9);
+        transition: all ease-in 500ms;
+        width: 100vw;
+        height: 4em;
+        
+      
+        
+       
+    }
+
+    .nav1 a{
+        display: none;
+    }
+      
+    li{
+        list-style: none;
+       
+    
+        
+    }
+    
+    #header {
+        position: relative;
+        background-size: auto 100vh;
+        background-position: center;
+        background-attachment: fixed;
+       text-align: center; 
+       
+       
+    }
+    
+    
+    .imgCover{
+        padding: 0;
+        margin: 0;
+        width: 100vw;
+        height: 45vh;
+        background-color: #02008c;
+      
+      
+       
+    
+    }
+    
+    #header img{
+        padding: 0;
+        margin: 0;
+        width:100vw;
+        height: 45vh;
+        opacity: 50%;
+    }
+    
+    
+    
+    #header p {
+
+        position: absolute;
+        color: white;
+        font-size: 20px;
+        margin-left: auto;
+    margin-right: auto;
+    top:20vh;
+    left: 0;
+    right: 0;
+  
+   
+    
+    }
+    
+    #header h1 {
+        top:0;
+        z-index: 3;
+        font-size: 3em;
+        padding: 0;
+        margin: 0;
+        
+    }
+    
+    
+    #header button{
+        position: relative;
+        bottom: 2em;
+        color: white;
+        background-color: #ff7e05;
+        border-color: #ff7e05;
+        border-radius: 4px;
+        font-size: 18px;
+        height: auto;
+        width: auto;
+        transition: ease-out 100ms;
+     
+    }
+
+    #header button:hover{
+        position: relative;
+        bottom: 2em;
+        color: white;
+        background-color: #ff7e05;
+        border-color: #ff7e05;
+        border-radius: 4px;
+        font-size: 18px;
+        height: auto;
+        width: auto;
+        transition: ease-out 100ms;
+     
+    }
+    
+    
+    
+    
+    
+    
+    
+    #about {
+        margin: 0;
+       padding: 0;
+       padding-top: 1em;
+       padding-bottom: 7em;
+       width: 100%  ;
+       transition: ease-out 600ms;
+       text-align: center;
+      
+      
+     
+      
+    }
+    
+    
+    #about.fade-in {
+      
+       opacity: 100%;
+       transition: ease-in 600ms;
+      
+      
+    }
+    
+   
+    #about h2 {
+        font-size: 18px;
+        
+    }
+
+    #about p {
+        font-size: 14px;
+        margin-top: 1em;
+        
+    }
+
+   
+    #aboutType {
+        padding: 0;
+        text-align: center;
+    }
+
+    #aboutType h2::after{
+        
+        display: block;
+        width: auto;
+        height: 1px;
+        margin-top: 1em;
+        background: rgba(144, 144, 144, 0.5);
+    }
+    
+    
+    #about img {
+        padding: 0;
+        margin: 0;
+        padding-top: 2em;
+        width: 90vw;
+        height: 282px;
+    
+    }
+    
+    #services {
+      color: black;
+       min-height: 100%;
+       width: auto;
+       position: relative;
+       background-position: center;
+       background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+       
+    }
+    
+    #devService, #contentService, #marketingService {
+    color: black;
+        width: auto;
+        height: 25em;
+        align-items: center;
+        background-size: contain;
+        background-repeat:repeat-y;
+        background-position: center;
+        background-color: #6967670d;
+        border-radius: 3px;
+        box-shadow: 0px 1px .5px rgba(0, 0, 0, 0.2);
+    }
+    
+    #devService img, #contentService img, #marketingService img{
+       height: 4em;
+       width: 4em; 
+    }   
+    
+    
+    #services h1 {
+        color: black;
+    }
+    
+    #testimonials{
+    
+        background-color:#000024;
+        background-image:url("/images/mohammad-alizade-S5uV7ro4UPY-unsplash.jpg");
+        background-attachment: scroll;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        max-height: 27em;
+        max-width: auto;
+        
+    }
+    
+    #testimonials p, #testimonials h1 {
+       
+        font-size: 14px;
+        color: white;
+        text-align: left;
+    }
+     
+    #caseStudies {
+       
+       
+      padding: 0;
+      margin: 0;
+    
+    }
+    
+    #caseStudies img {
+        
+        height: 14em;
+        width: 100vw;
+        border-radius: 0;
+    
+       
+    }
+    
+    .case1, .case2, .case3 {
+    
+        
+        width: 15em;
+        height: 100%;
+        padding: 20px;
+        margin: 12px;
+      
+    }
+
+    .case1 p, .case2 p, .case3 p{
+    
+        
+        margin-top:2em;
+      
+    }
+    
+    .case1 button, .case2 button, .case3 button {
+    
+       margin-top: 1em;
+        bottom: 5em;
+        color: black;
+        background-color:#0000;
+        border-radius: 4px;
+        border-color: black;
+        font-size: 10px;
+        height: 4em;
+        width: 15em;
+        transition: ease-out 100ms;
+    }
+    
+    
+    form {
+    padding: 0;
+        color: white;
+        background-image:url("/images/oskar-yildiz-cOkpTiJMGzA-unsplash.jpg");
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-color:#00002454;
+        background-size: 100vh;
+        background-blend-mode: darken;
+    }
+    
+    form h1 {
+        font-size: 2em;
+        padding: 3px;
+    }
+    
+    input {
+        padding: 2em 4em 2em 4em;
+        width: 60vw;
+        border-radius: 5px;
+        box-shadow: none;
+        border: none;
+        
+    }
+    
+    textarea {
+        padding: 5em 4em 5em 4em;
+        width: 60vw;
+        border-radius: 5px;
+        border: none;
+        
+    }
+    
+    #formButton {
+        position: relative;
+        color: white;
+        background-color: #ff7e05;
+        border-color: #ff7e05;
+        border-radius: 2px;
+        font-size: 15px;
+        height: 4em;
+        width: 15em;
+        transition: ease-out 100ms;
+    
+    }
+    
+    
+    #footer {
+        padding: 0;
+        width: 100vw;
+       height: 1.5em;
+        background-color:#01013d;
+        color:white;
+        background-attachment: fixed,							fixed,							fixed;
+        background-position: top left,						center center,					center center;
+        background-size: auto,							cover,							cover;
+       
+        
+       
+
+        
+       
+    }
+    
+    #footer li, #footer a {
+      
+        color: white;
+        text-decoration: none;
+        
+    }
+   
+    
+    
+    .copy  {
+     position: relative;
+    font-size: 10px;
+     color: black;
+    }
+    
+
+
+
+
+
+}
