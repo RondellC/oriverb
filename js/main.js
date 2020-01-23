@@ -186,10 +186,10 @@ let markServ = document.getElementById("marketingService");
    
    
 
-  }
+  } 
 
   function deleteMenu(){
-    mobileNav.style.display = "none";
+    mobileNav.style.display = "block";
     document.body.style.overflow = 'scroll';
     mobileLogo.style.display = 'block';
     menuImage.style.opacity = '100%';
